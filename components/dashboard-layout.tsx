@@ -99,12 +99,6 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 <h1 className="text-lg font-semibold">Analytics Dashboard</h1>
                 <p className="text-sm text-muted-foreground">Monitor your digital marketing performance</p>
               </div>
-              <div className="flex items-center gap-2">
-                <Button variant="outline" size="sm">
-                  <Download className="h-4 w-4 mr-2" />
-                  Export
-                </Button>
-              </div>
             </div>
           </header>
           <main className="flex-1 overflow-auto p-4">
